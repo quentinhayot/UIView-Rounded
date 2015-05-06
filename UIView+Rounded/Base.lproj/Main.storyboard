@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ABy-hg-xmE">
+                                <rect key="frame" x="154" y="167" width="292" height="292"/>
+                                <color key="backgroundColor" red="0.96078431369999995" green="0.3803921569" blue="0.42745098040000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="292" id="BP4-rB-Oge"/>
+                                    <constraint firstAttribute="width" secondItem="ABy-hg-xmE" secondAttribute="height" multiplier="1:1" id="KyW-ad-2q5"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EC0-rT-Toc">
+                                <rect key="frame" x="277" y="298" width="46" height="30"/>
+                                <state key="normal" title="Resize">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="resizeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ud8-cJ-Jc2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="EC0-rT-Toc" firstAttribute="centerY" secondItem="ABy-hg-xmE" secondAttribute="centerY" id="HZy-0d-qqr"/>
+                            <constraint firstItem="EC0-rT-Toc" firstAttribute="centerX" secondItem="ABy-hg-xmE" secondAttribute="centerX" id="Lor-io-UFp"/>
+                            <constraint firstAttribute="centerY" secondItem="ABy-hg-xmE" secondAttribute="centerY" constant="-13" id="frz-MN-pY6"/>
+                            <constraint firstAttribute="centerX" secondItem="ABy-hg-xmE" secondAttribute="centerX" id="ucC-wZ-6mL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="testView" destination="ABy-hg-xmE" id="vso-lP-yol"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
