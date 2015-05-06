@@ -50,6 +50,11 @@ NSString * const kRoundedPreviousFrameKey = @"kRoundedPreviousFrameKey";
 }
 
 -(void)dealloc{
-    [self removeObserver:self forKeyPath:@"bounds"];
+    @try {
+        [self removeObserver:self forKeyPath:@"bounds"];
+    }
+    @catch (NSException *exception) {
+        // No observer was set.
+    }
 }
 @end
