@@ -7,15 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ECE0F8AB1AFA1D3A00F9D362 /* UIView+Rounded.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE0F8AA1AFA1D3A00F9D362 /* UIView+Rounded.m */; };
 		ECE9829C1AF907A900F1A298 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE9829B1AF907A900F1A298 /* main.m */; };
 		ECE9829F1AF907A900F1A298 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE9829E1AF907A900F1A298 /* AppDelegate.m */; };
-		ECE982A21AF907A900F1A298 /* UIView_Rounded.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECE982A01AF907A900F1A298 /* UIView_Rounded.xcdatamodeld */; };
 		ECE982A51AF907A900F1A298 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE982A41AF907A900F1A298 /* ViewController.m */; };
 		ECE982A81AF907A900F1A298 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE982A61AF907A900F1A298 /* Main.storyboard */; };
 		ECE982AA1AF907A900F1A298 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE982A91AF907A900F1A298 /* Images.xcassets */; };
 		ECE982AD1AF907A900F1A298 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECE982AB1AF907A900F1A298 /* LaunchScreen.xib */; };
 		ECE982B91AF907A900F1A298 /* UIView_RoundedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE982B81AF907A900F1A298 /* UIView_RoundedTests.m */; };
-		ECE982C71AF90A3000F1A298 /* UIView+Rounded.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE982C61AF90A3000F1A298 /* UIView+Rounded.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,12 +28,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ECE0F8A91AFA1D3A00F9D362 /* UIView+Rounded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Rounded.h"; sourceTree = "<group>"; };
+		ECE0F8AA1AFA1D3A00F9D362 /* UIView+Rounded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Rounded.m"; sourceTree = "<group>"; };
 		ECE982961AF907A900F1A298 /* UIView+Rounded.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIView+Rounded.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE9829A1AF907A900F1A298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECE9829B1AF907A900F1A298 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ECE9829D1AF907A900F1A298 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ECE9829E1AF907A900F1A298 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ECE982A11AF907A900F1A298 /* UIView_Rounded.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UIView_Rounded.xcdatamodel; sourceTree = "<group>"; };
 		ECE982A31AF907A900F1A298 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		ECE982A41AF907A900F1A298 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ECE982A71AF907A900F1A298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -43,8 +43,6 @@
 		ECE982B21AF907A900F1A298 /* UIView+RoundedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIView+RoundedTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE982B71AF907A900F1A298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECE982B81AF907A900F1A298 /* UIView_RoundedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIView_RoundedTests.m; sourceTree = "<group>"; };
-		ECE982C51AF90A3000F1A298 /* UIView+Rounded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Rounded.h"; sourceTree = "<group>"; };
-		ECE982C61AF90A3000F1A298 /* UIView+Rounded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Rounded.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +63,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ECE0F8A81AFA1D3A00F9D362 /* UIView+Rounded */ = {
+			isa = PBXGroup;
+			children = (
+				ECE0F8A91AFA1D3A00F9D362 /* UIView+Rounded.h */,
+				ECE0F8AA1AFA1D3A00F9D362 /* UIView+Rounded.m */,
+			);
+			name = "UIView+Rounded";
+			path = "../UIView+Rounded";
+			sourceTree = "<group>";
+		};
 		ECE9828D1AF907A900F1A298 = {
 			isa = PBXGroup;
 			children = (
-				ECE982981AF907A900F1A298 /* UIView+Rounded */,
+				ECE0F8A81AFA1D3A00F9D362 /* UIView+Rounded */,
+				ECE982981AF907A900F1A298 /* Sample */,
 				ECE982B51AF907A900F1A298 /* UIView+RoundedTests */,
 				ECE982971AF907A900F1A298 /* Products */,
 			);
@@ -83,7 +92,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ECE982981AF907A900F1A298 /* UIView+Rounded */ = {
+		ECE982981AF907A900F1A298 /* Sample */ = {
 			isa = PBXGroup;
 			children = (
 				ECE9829D1AF907A900F1A298 /* AppDelegate.h */,
@@ -93,11 +102,9 @@
 				ECE982A61AF907A900F1A298 /* Main.storyboard */,
 				ECE982A91AF907A900F1A298 /* Images.xcassets */,
 				ECE982AB1AF907A900F1A298 /* LaunchScreen.xib */,
-				ECE982A01AF907A900F1A298 /* UIView_Rounded.xcdatamodeld */,
 				ECE982991AF907A900F1A298 /* Supporting Files */,
-				ECE982C51AF90A3000F1A298 /* UIView+Rounded.h */,
-				ECE982C61AF90A3000F1A298 /* UIView+Rounded.m */,
 			);
+			name = Sample;
 			path = "UIView+Rounded";
 			sourceTree = "<group>";
 		};
@@ -227,11 +234,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECE0F8AB1AFA1D3A00F9D362 /* UIView+Rounded.m in Sources */,
 				ECE9829F1AF907A900F1A298 /* AppDelegate.m in Sources */,
 				ECE9829C1AF907A900F1A298 /* main.m in Sources */,
 				ECE982A51AF907A900F1A298 /* ViewController.m in Sources */,
-				ECE982A21AF907A900F1A298 /* UIView_Rounded.xcdatamodeld in Sources */,
-				ECE982C71AF90A3000F1A298 /* UIView+Rounded.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,19 +446,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		ECE982A01AF907A900F1A298 /* UIView_Rounded.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				ECE982A11AF907A900F1A298 /* UIView_Rounded.xcdatamodel */,
-			);
-			currentVersion = ECE982A11AF907A900F1A298 /* UIView_Rounded.xcdatamodel */;
-			path = UIView_Rounded.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = ECE9828E1AF907A900F1A298 /* Project object */;
 }
