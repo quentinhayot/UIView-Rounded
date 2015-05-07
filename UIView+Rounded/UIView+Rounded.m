@@ -31,7 +31,6 @@ NSString * const kRoundedPreviousFrameKey = @"kRoundedPreviousFrameKey";
 
 -(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
 {
-    NSLog(@"KVO %@", keyPath);
     if([keyPath isEqualToString:@"bounds"])
     {
         CGRect prevRect = [self previousFrame:nil];

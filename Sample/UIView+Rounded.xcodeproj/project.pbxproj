@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ECE0F8AB1AFA1D3A00F9D362 /* UIView+Rounded.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE0F8AA1AFA1D3A00F9D362 /* UIView+Rounded.m */; };
-		ECE9829C1AF907A900F1A298 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE9829B1AF907A900F1A298 /* main.m */; };
-		ECE9829F1AF907A900F1A298 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE9829E1AF907A900F1A298 /* AppDelegate.m */; };
-		ECE982A51AF907A900F1A298 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE982A41AF907A900F1A298 /* ViewController.m */; };
-		ECE982A81AF907A900F1A298 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE982A61AF907A900F1A298 /* Main.storyboard */; };
-		ECE982AA1AF907A900F1A298 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE982A91AF907A900F1A298 /* Images.xcassets */; };
-		ECE982AD1AF907A900F1A298 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECE982AB1AF907A900F1A298 /* LaunchScreen.xib */; };
+		ECD3E7A41AFB630F00D96188 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECD3E7A01AFB630F00D96188 /* LaunchScreen.xib */; };
+		ECD3E7A51AFB630F00D96188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECD3E7A21AFB630F00D96188 /* Main.storyboard */; };
+		ECD3E7A71AFB636600D96188 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD3E7A61AFB636600D96188 /* Images.xcassets */; };
+		ECD3E7AA1AFB645900D96188 /* UIView+Rounded.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE0F8AA1AFA1D3A00F9D362 /* UIView+Rounded.m */; };
+		ECD3E7AB1AFB645A00D96188 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE9829E1AF907A900F1A298 /* AppDelegate.m */; };
+		ECD3E7AC1AFB645C00D96188 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE982A41AF907A900F1A298 /* ViewController.m */; };
+		ECD3E7AD1AFB645E00D96188 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE9829B1AF907A900F1A298 /* main.m */; };
 		ECE982B91AF907A900F1A298 /* UIView_RoundedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE982B81AF907A900F1A298 /* UIView_RoundedTests.m */; };
 /* End PBXBuildFile section */
 
@@ -28,18 +28,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ECD3E7A11AFB630F00D96188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
+		ECD3E7A31AFB630F00D96188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		ECD3E7A61AFB636600D96188 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = SOURCE_ROOT; };
+		ECD3E7A81AFB638200D96188 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 		ECE0F8A91AFA1D3A00F9D362 /* UIView+Rounded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Rounded.h"; sourceTree = "<group>"; };
 		ECE0F8AA1AFA1D3A00F9D362 /* UIView+Rounded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Rounded.m"; sourceTree = "<group>"; };
 		ECE982961AF907A900F1A298 /* UIView+Rounded.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIView+Rounded.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECE9829A1AF907A900F1A298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ECE9829B1AF907A900F1A298 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECE9829B1AF907A900F1A298 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
 		ECE9829D1AF907A900F1A298 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		ECE9829E1AF907A900F1A298 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECE9829E1AF907A900F1A298 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = SOURCE_ROOT; };
 		ECE982A31AF907A900F1A298 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ECE982A41AF907A900F1A298 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		ECE982A71AF907A900F1A298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ECE982A91AF907A900F1A298 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		ECE982AC1AF907A900F1A298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ECE982A41AF907A900F1A298 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = SOURCE_ROOT; };
 		ECE982B21AF907A900F1A298 /* UIView+RoundedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIView+RoundedTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE982B71AF907A900F1A298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECE982B81AF907A900F1A298 /* UIView_RoundedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIView_RoundedTests.m; sourceTree = "<group>"; };
@@ -95,13 +95,13 @@
 		ECE982981AF907A900F1A298 /* Sample */ = {
 			isa = PBXGroup;
 			children = (
+				ECD3E7A61AFB636600D96188 /* Images.xcassets */,
 				ECE9829D1AF907A900F1A298 /* AppDelegate.h */,
 				ECE9829E1AF907A900F1A298 /* AppDelegate.m */,
 				ECE982A31AF907A900F1A298 /* ViewController.h */,
 				ECE982A41AF907A900F1A298 /* ViewController.m */,
-				ECE982A61AF907A900F1A298 /* Main.storyboard */,
-				ECE982A91AF907A900F1A298 /* Images.xcassets */,
-				ECE982AB1AF907A900F1A298 /* LaunchScreen.xib */,
+				ECD3E7A01AFB630F00D96188 /* LaunchScreen.xib */,
+				ECD3E7A21AFB630F00D96188 /* Main.storyboard */,
 				ECE982991AF907A900F1A298 /* Supporting Files */,
 			);
 			name = Sample;
@@ -111,7 +111,7 @@
 		ECE982991AF907A900F1A298 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				ECE9829A1AF907A900F1A298 /* Info.plist */,
+				ECD3E7A81AFB638200D96188 /* Info.plist */,
 				ECE9829B1AF907A900F1A298 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -214,9 +214,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECE982A81AF907A900F1A298 /* Main.storyboard in Resources */,
-				ECE982AD1AF907A900F1A298 /* LaunchScreen.xib in Resources */,
-				ECE982AA1AF907A900F1A298 /* Images.xcassets in Resources */,
+				ECD3E7A71AFB636600D96188 /* Images.xcassets in Resources */,
+				ECD3E7A51AFB630F00D96188 /* Main.storyboard in Resources */,
+				ECD3E7A41AFB630F00D96188 /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,10 +234,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECE0F8AB1AFA1D3A00F9D362 /* UIView+Rounded.m in Sources */,
-				ECE9829F1AF907A900F1A298 /* AppDelegate.m in Sources */,
-				ECE9829C1AF907A900F1A298 /* main.m in Sources */,
-				ECE982A51AF907A900F1A298 /* ViewController.m in Sources */,
+				ECD3E7AD1AFB645E00D96188 /* main.m in Sources */,
+				ECD3E7AA1AFB645900D96188 /* UIView+Rounded.m in Sources */,
+				ECD3E7AB1AFB645A00D96188 /* AppDelegate.m in Sources */,
+				ECD3E7AC1AFB645C00D96188 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,20 +260,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ECE982A61AF907A900F1A298 /* Main.storyboard */ = {
+		ECD3E7A01AFB630F00D96188 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ECE982A71AF907A900F1A298 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		ECE982AB1AF907A900F1A298 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ECE982AC1AF907A900F1A298 /* Base */,
+				ECD3E7A11AFB630F00D96188 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		ECD3E7A21AFB630F00D96188 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECD3E7A31AFB630F00D96188 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -365,7 +365,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "UIView+Rounded/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -375,7 +375,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "UIView+Rounded/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
