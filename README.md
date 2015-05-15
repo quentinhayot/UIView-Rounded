@@ -3,7 +3,7 @@ An UIView category for rounded views !
 Create rounded or circular views that will keep their look upon resizing.
 
 ## Installation
-### With Cocoapod
+### With Cocoapods
 Add this to your Podfile:  
 ```objective-c
 pod 'UIView-Rounded'
