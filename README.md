@@ -4,8 +4,9 @@ Create rounded or circular views that will keep their look upon resizing.
 
 ## Installation
 ### With Cocoapod
+Add this to your Podfile:  
 `pod 'UIView-Rounded'`  
-Run a `pod install` and  
+Run a `pod install` and import the header where you need it:  
 `#import <UIView+Rounded.h>`
 ### Manually
 Drop UIView+Rounded.h and .m in your project, then  
