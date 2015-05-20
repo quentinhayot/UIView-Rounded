@@ -1,4 +1,5 @@
 # UIView+Rounded
+[![Build Status](https://travis-ci.org/quentinhayot/UIView-Rounded.svg?branch=master)](https://travis-ci.org/quentinhayot/UIView-Rounded)  
 An UIView category for rounded views !  
 Create rounded or circular views that will keep their look upon resizing.
 
