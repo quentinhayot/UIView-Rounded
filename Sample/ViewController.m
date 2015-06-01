@@ -28,7 +28,13 @@
 }
 
 -(void)viewDidAppear:(BOOL)animated{
+    [self.testView addObserver:self.testView forKeyPath:@"bounds" options:0 context:nil];
 }
+
+-(void)viewWillDisappear:(BOOL)animated{
+    [self.testView removeObserver:self.testView forKeyPath:@"bounds"];
+}
+
 - (IBAction)resizeButtonPressed:(id)sender {
     CGRect frame = self.testView.bounds;
     frame.size.height = frame.size.height/2;

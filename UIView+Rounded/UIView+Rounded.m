@@ -21,7 +21,6 @@ NSString * const kRoundedPreviousFrameKey = @"kRoundedPreviousFrameKey";
     UIBezierPath *circularPath=[UIBezierPath bezierPathWithRoundedRect:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height) cornerRadius:MAX(self.frame.size.width, self.frame.size.height)];
     circle.path = circularPath.CGPath;
     self.layer.mask = circle;
-    [self addObserver:self forKeyPath:@"bounds" options:0 context:nil];
     CGRect frame = self.frame;
     [self previousFrame:&frame];
 }
@@ -52,12 +51,4 @@ NSString * const kRoundedPreviousFrameKey = @"kRoundedPreviousFrameKey";
     return previousFrame;
 }
 
--(void)dealloc{
-    @try {
-        [self removeObserver:self forKeyPath:@"bounds"];
-    }
-    @catch (NSException *exception) {
-        // No observer was set.
-    }
-}
 @end

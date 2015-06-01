@@ -31,4 +31,11 @@ UIView *myRoundedView = [[UIView alloc] init];
 UIView *myRoundedView = [[UIView alloc] init]; 
 [myRoundView circleWithBorderWidth:2.0f andBorderColor:[UIColor whiteColor]];  
 // If the view doesn't have a 1:1 ratio, the result will not look good.
+
+// You are responsible to create and remove the following observer
+// if you want the circle view to stay a circle on resizing
+[myRoundView addObserver:myRoundView forKeyPath:@"bounds" options:0 context:nil];
+[myRoundView removeObserver:myRoundView forKeyPath:@"bounds"];
+
+
 ```
